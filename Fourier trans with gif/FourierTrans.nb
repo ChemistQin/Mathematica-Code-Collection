@@ -1,0 +1,77 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.4' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1754,         67]
+NotebookOptionsPosition[      1491,         53]
+NotebookOutlinePosition[      1857,         69]
+CellTagsIndexPosition[      1814,         66]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"y", "[", 
+    RowBox[{"x_", ",", "m_"}], "]"}], ":=", 
+   RowBox[{
+    UnderoverscriptBox["\[Sum]", 
+     RowBox[{"n", "=", "0"}], "m"], 
+    FractionBox[
+     RowBox[{"Sin", "[", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"2", "n"}], "+", "1"}], ")"}], "x"}], "]"}], 
+     RowBox[{
+      RowBox[{"2", "n"}], "+", "1"}]]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"g", "=", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"Plot", "[", 
+      RowBox[{
+       RowBox[{"y", "[", 
+        RowBox[{"x", ",", "m"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", 
+         RowBox[{"-", "5"}], ",", "5"}], "}"}]}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"m", ",", "0", ",", "100"}], "}"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Export", "[", 
+  RowBox[{"\"\<fourier.gif\>\"", ",", "g"}], "]"}]}], "Input"]
+},
+WindowSize->{808, 751},
+WindowMargins->{{28, Automatic}, {36, Automatic}},
+FrontEndVersion->"10.4 for Mac OS X x86 (32-bit, 64-bit Kernel) (2016\:5e742\
+\:670825\:65e5)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 929, 31, 122, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
