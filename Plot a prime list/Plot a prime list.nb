@@ -1,0 +1,69 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.4' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1725,         61]
+NotebookOptionsPosition[      1416,         46]
+NotebookOutlinePosition[      1783,         62]
+CellTagsIndexPosition[      1740,         59]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ListPlot", "[", 
+   RowBox[{
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"Prime", "[", "i", "]"}], 
+         RowBox[{"Sin", "[", 
+          RowBox[{"Prime", "[", "i", "]"}], "]"}]}], ",", 
+        RowBox[{
+         RowBox[{"Prime", "[", "i", "]"}], 
+         RowBox[{"Cos", "[", 
+          RowBox[{"Prime", "[", "i", "]"}], "]"}]}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "1", ",", "10000"}], "}"}]}], "]"}], ",", 
+    RowBox[{"AspectRatio", "\[Rule]", "Automatic"}], ",", 
+    RowBox[{"Axes", "\[Rule]", "False"}]}], "]"}], "\n"}]], "Input",
+ CellChangeTimes->{{3.683961519466421*^9, 3.6839615827049427`*^9}, 
+   3.683961626389659*^9}],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.684917019067688*^9, 3.684917019086013*^9}}]
+},
+WindowSize->{808, 751},
+WindowMargins->{{143, Automatic}, {-2, Automatic}},
+FrontEndVersion->"10.4 for Mac OS X x86 (32-bit, 64-bit Kernel) (2016\:5e742\
+\:670825\:65e5)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 759, 21, 93, "Input"],
+Cell[1320, 43, 92, 1, 28, InheritFromParent]
+}
+]
+*)
+
